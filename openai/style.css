@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+background: var(--background, white);
+}
+.sidebar {
+    width: 588px;
+    height: 1024px;
+    flex-shrink: 0;
+    background-color: #f2f2f2;
+}
+
+.c-t{
+    display: inline;
+    color: var(--secondary-text, #858585);
+        text-align: center;
+        font-size: 12px;
+        font-family: Montserrat;
+        
+        
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display:center;
+    background: var(--background, #F5F5F5);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: var(--secondary-text, #858585);
+        font-size: 12px;
+        font-family: Montserrat;
+}
+
+h1 {
+    color: #000;
+        font-size: 36px;
+        font-family: Montserrat;
+        font-weight: 700;
+}
+
+p {
+color: #000;
+    font-size: 16px;
+    font-family: Lato;
+}
+.apis{
+    display: inline;
+        flex-direction: column;
+        align-items: center;
+}
+.icon-container {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+width: 180px;
+    height: 30px;
+    flex-shrink: 0;
+border-radius: 10px;
+background: #FFF;
+   
+color: var(--secondary-text, #858585);
+    text-align: center;
+    font-size: 12px;
+    font-family: Montserrat;
+
+        
+}
+
+.img-icon{
+    padding-top: 5px;
+    width: 14px;
+        height: 14px;
+        flex-shrink: 0;
+}
+.icon-container .icon {
+    margin-right: 10px;
+}
+
+.icon-container .text {
+    font-weight:normal;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #000;
+        font-size: 16px;
+        font-family: Lato;
+}
+
+
+
+
+input[type="text"],
+input[type="password"] {
+ 
+  
+        width: 325px;
+            height: 40px;
+            flex-shrink: 0;
+            border-radius: 10px;
+                background: var(--background, white);
+   
+
+}
+
+.forgot-password {
+    display: block;
+    color: var(--link, #346BD4);
+        font-size: 16px;
+        font-family: Lato;
+        padding-top: 10px;
+}
+
+.signin-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+background: #000;
+
+font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.dha{
+    color: #858585;
+        text-align: center;
+        font-size: 16px;
+        font-family: Lato;
+}
